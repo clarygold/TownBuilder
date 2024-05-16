@@ -29,184 +29,210 @@
         private void InitializeComponent()
         {
             this.tb_username = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tb_password = new System.Windows.Forms.TextBox();
+            this.tb_passwordagain = new System.Windows.Forms.TextBox();
             this.pb_loginpress = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pbx_back = new System.Windows.Forms.PictureBox();
+            this.pbx_bild1 = new System.Windows.Forms.PictureBox();
+            this.pbx_bild2 = new System.Windows.Forms.PictureBox();
+            this.pbx_bild3 = new System.Windows.Forms.PictureBox();
+            this.pbx_bild6 = new System.Windows.Forms.PictureBox();
+            this.pbx_bild5 = new System.Windows.Forms.PictureBox();
+            this.pbx_bild4 = new System.Windows.Forms.PictureBox();
+            this.pbx_bild9 = new System.Windows.Forms.PictureBox();
+            this.pbx_bild8 = new System.Windows.Forms.PictureBox();
+            this.pbx_bild7 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_loginpress)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_back)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild7)).BeginInit();
             this.SuspendLayout();
             // 
             // tb_username
             // 
-            this.tb_username.Location = new System.Drawing.Point(209, 194);
+            this.tb_username.Location = new System.Drawing.Point(279, 239);
+            this.tb_username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tb_username.Name = "tb_username";
-            this.tb_username.Size = new System.Drawing.Size(250, 20);
+            this.tb_username.Size = new System.Drawing.Size(332, 22);
             this.tb_username.TabIndex = 1;
             // 
-            // textBox1
+            // tb_password
             // 
-            this.textBox1.Location = new System.Drawing.Point(209, 307);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(250, 20);
-            this.textBox1.TabIndex = 2;
+            this.tb_password.Location = new System.Drawing.Point(279, 378);
+            this.tb_password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb_password.Name = "tb_password";
+            this.tb_password.Size = new System.Drawing.Size(332, 22);
+            this.tb_password.TabIndex = 2;
             // 
-            // textBox2
+            // tb_passwordagain
             // 
-            this.textBox2.Location = new System.Drawing.Point(209, 427);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(250, 20);
-            this.textBox2.TabIndex = 3;
+            this.tb_passwordagain.Location = new System.Drawing.Point(279, 526);
+            this.tb_passwordagain.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb_passwordagain.Name = "tb_passwordagain";
+            this.tb_passwordagain.Size = new System.Drawing.Size(332, 22);
+            this.tb_passwordagain.TabIndex = 3;
             // 
             // pb_loginpress
             // 
             this.pb_loginpress.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pb_loginpress.Location = new System.Drawing.Point(123, 506);
+            this.pb_loginpress.Location = new System.Drawing.Point(164, 623);
+            this.pb_loginpress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pb_loginpress.Name = "pb_loginpress";
-            this.pb_loginpress.Size = new System.Drawing.Size(432, 112);
+            this.pb_loginpress.Size = new System.Drawing.Size(576, 138);
             this.pb_loginpress.TabIndex = 4;
             this.pb_loginpress.TabStop = false;
+            this.pb_loginpress.Click += new System.EventHandler(this.pb_loginpress_Click);
             // 
-            // pictureBox1
+            // pbx_back
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 70);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.pbx_back.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbx_back.Location = new System.Drawing.Point(16, 15);
+            this.pbx_back.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbx_back.Name = "pbx_back";
+            this.pbx_back.Size = new System.Drawing.Size(95, 86);
+            this.pbx_back.TabIndex = 5;
+            this.pbx_back.TabStop = false;
+            this.pbx_back.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox2
+            // pbx_bild1
             // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox2.Location = new System.Drawing.Point(732, 217);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(107, 105);
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
+            this.pbx_bild1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbx_bild1.Location = new System.Drawing.Point(976, 267);
+            this.pbx_bild1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbx_bild1.Name = "pbx_bild1";
+            this.pbx_bild1.Size = new System.Drawing.Size(143, 129);
+            this.pbx_bild1.TabIndex = 6;
+            this.pbx_bild1.TabStop = false;
+            this.pbx_bild1.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // pictureBox3
+            // pbx_bild2
             // 
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox3.Location = new System.Drawing.Point(845, 217);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(107, 105);
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
+            this.pbx_bild2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbx_bild2.Location = new System.Drawing.Point(1127, 267);
+            this.pbx_bild2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbx_bild2.Name = "pbx_bild2";
+            this.pbx_bild2.Size = new System.Drawing.Size(143, 129);
+            this.pbx_bild2.TabIndex = 7;
+            this.pbx_bild2.TabStop = false;
+            this.pbx_bild2.Click += new System.EventHandler(this.pbx_bild2_Click);
             // 
-            // pictureBox4
+            // pbx_bild3
             // 
-            this.pictureBox4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox4.Location = new System.Drawing.Point(958, 217);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(107, 105);
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
+            this.pbx_bild3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbx_bild3.Location = new System.Drawing.Point(1277, 267);
+            this.pbx_bild3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbx_bild3.Name = "pbx_bild3";
+            this.pbx_bild3.Size = new System.Drawing.Size(143, 129);
+            this.pbx_bild3.TabIndex = 8;
+            this.pbx_bild3.TabStop = false;
+            this.pbx_bild3.Click += new System.EventHandler(this.pbx_bild3_Click);
             // 
-            // pictureBox5
+            // pbx_bild6
             // 
-            this.pictureBox5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox5.Location = new System.Drawing.Point(958, 328);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(107, 105);
-            this.pictureBox5.TabIndex = 11;
-            this.pictureBox5.TabStop = false;
+            this.pbx_bild6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbx_bild6.Location = new System.Drawing.Point(1277, 404);
+            this.pbx_bild6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbx_bild6.Name = "pbx_bild6";
+            this.pbx_bild6.Size = new System.Drawing.Size(143, 129);
+            this.pbx_bild6.TabIndex = 11;
+            this.pbx_bild6.TabStop = false;
+            this.pbx_bild6.Click += new System.EventHandler(this.pbx_bild6_Click);
             // 
-            // pictureBox6
+            // pbx_bild5
             // 
-            this.pictureBox6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox6.Location = new System.Drawing.Point(845, 328);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(107, 105);
-            this.pictureBox6.TabIndex = 10;
-            this.pictureBox6.TabStop = false;
+            this.pbx_bild5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbx_bild5.Location = new System.Drawing.Point(1127, 404);
+            this.pbx_bild5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbx_bild5.Name = "pbx_bild5";
+            this.pbx_bild5.Size = new System.Drawing.Size(143, 129);
+            this.pbx_bild5.TabIndex = 10;
+            this.pbx_bild5.TabStop = false;
+            this.pbx_bild5.Click += new System.EventHandler(this.pbx_bild5_Click);
             // 
-            // pictureBox7
+            // pbx_bild4
             // 
-            this.pictureBox7.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox7.Location = new System.Drawing.Point(732, 328);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(107, 105);
-            this.pictureBox7.TabIndex = 9;
-            this.pictureBox7.TabStop = false;
+            this.pbx_bild4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbx_bild4.Location = new System.Drawing.Point(976, 404);
+            this.pbx_bild4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbx_bild4.Name = "pbx_bild4";
+            this.pbx_bild4.Size = new System.Drawing.Size(143, 129);
+            this.pbx_bild4.TabIndex = 9;
+            this.pbx_bild4.TabStop = false;
+            this.pbx_bild4.Click += new System.EventHandler(this.pbx_bild4_Click);
             // 
-            // pictureBox8
+            // pbx_bild9
             // 
-            this.pictureBox8.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox8.Location = new System.Drawing.Point(958, 439);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(107, 105);
-            this.pictureBox8.TabIndex = 14;
-            this.pictureBox8.TabStop = false;
+            this.pbx_bild9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbx_bild9.Location = new System.Drawing.Point(1277, 540);
+            this.pbx_bild9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbx_bild9.Name = "pbx_bild9";
+            this.pbx_bild9.Size = new System.Drawing.Size(143, 129);
+            this.pbx_bild9.TabIndex = 14;
+            this.pbx_bild9.TabStop = false;
+            this.pbx_bild9.Click += new System.EventHandler(this.pbx_bild9_Click);
             // 
-            // pictureBox9
+            // pbx_bild8
             // 
-            this.pictureBox9.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox9.Location = new System.Drawing.Point(845, 439);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(107, 105);
-            this.pictureBox9.TabIndex = 13;
-            this.pictureBox9.TabStop = false;
+            this.pbx_bild8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbx_bild8.Location = new System.Drawing.Point(1127, 540);
+            this.pbx_bild8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbx_bild8.Name = "pbx_bild8";
+            this.pbx_bild8.Size = new System.Drawing.Size(143, 129);
+            this.pbx_bild8.TabIndex = 13;
+            this.pbx_bild8.TabStop = false;
+            this.pbx_bild8.Click += new System.EventHandler(this.pbx_bild8_Click);
             // 
-            // pictureBox10
+            // pbx_bild7
             // 
-            this.pictureBox10.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox10.Location = new System.Drawing.Point(732, 439);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(107, 105);
-            this.pictureBox10.TabIndex = 12;
-            this.pictureBox10.TabStop = false;
+            this.pbx_bild7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbx_bild7.Location = new System.Drawing.Point(976, 540);
+            this.pbx_bild7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbx_bild7.Name = "pbx_bild7";
+            this.pbx_bild7.Size = new System.Drawing.Size(143, 129);
+            this.pbx_bild7.TabIndex = 12;
+            this.pbx_bild7.TabStop = false;
+            this.pbx_bild7.Click += new System.EventHandler(this.pbx_bild7_Click);
             // 
             // frm_register
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(1685, 838);
+            this.Controls.Add(this.pbx_bild9);
+            this.Controls.Add(this.pbx_bild8);
+            this.Controls.Add(this.pbx_bild7);
+            this.Controls.Add(this.pbx_bild6);
+            this.Controls.Add(this.pbx_bild5);
+            this.Controls.Add(this.pbx_bild4);
+            this.Controls.Add(this.pbx_bild3);
+            this.Controls.Add(this.pbx_bild2);
+            this.Controls.Add(this.pbx_bild1);
+            this.Controls.Add(this.pbx_back);
             this.Controls.Add(this.pb_loginpress);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb_passwordagain);
+            this.Controls.Add(this.tb_password);
             this.Controls.Add(this.tb_username);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frm_register";
             this.Text = "frm_register";
             ((System.ComponentModel.ISupportInitialize)(this.pb_loginpress)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_back)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_bild7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,18 +241,18 @@
         #endregion
 
         private System.Windows.Forms.TextBox tb_username;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tb_password;
+        private System.Windows.Forms.TextBox tb_passwordagain;
         private System.Windows.Forms.PictureBox pb_loginpress;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pbx_back;
+        private System.Windows.Forms.PictureBox pbx_bild1;
+        private System.Windows.Forms.PictureBox pbx_bild2;
+        private System.Windows.Forms.PictureBox pbx_bild3;
+        private System.Windows.Forms.PictureBox pbx_bild6;
+        private System.Windows.Forms.PictureBox pbx_bild5;
+        private System.Windows.Forms.PictureBox pbx_bild4;
+        private System.Windows.Forms.PictureBox pbx_bild9;
+        private System.Windows.Forms.PictureBox pbx_bild8;
+        private System.Windows.Forms.PictureBox pbx_bild7;
     }
 }

@@ -19,12 +19,14 @@ namespace Townbuilder
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-
+            frm_login log = new frm_login();
+            log.ShowDialog();
         }
 
         private void pb_register_Click(object sender, EventArgs e)
         {
-
+            frm_register reg = new frm_register();
+            reg.ShowDialog();
         }
 
         private void pb_leave_Click(object sender, EventArgs e)

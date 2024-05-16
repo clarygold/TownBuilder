@@ -24,12 +24,29 @@ namespace Townbuilder
 
         private void pb_loginpress_Click(object sender, EventArgs e)
         {
-
+            cls_user u = new cls_user(tb_username.Text, tb_passwort.Text);
+            cls_DataProvider.SelectLogin(u);
+            if(u.Geld==null)
+            {
+                MessageBox.Show("Benutzer existiert nicht");
+            }
+            else
+            {
+                MessageBox.Show(string.Format("Geld: {0}", u.Geld));
+                frm_town s = new frm_town(u);
+                s.ShowDialog();
+            }
         }
 
         private void pb_registerpress_Click(object sender, EventArgs e)
         {
+            frm_register reg = new frm_register();
+            reg.ShowDialog();
+        }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

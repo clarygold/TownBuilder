@@ -9,3 +9,17 @@ C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\To
 C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.csproj.CoreCompileInputs.cache
 C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.exe
 C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.pdb
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\bin\Debug\Townbuilder.exe.config
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\bin\Debug\Townbuilder.exe
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\bin\Debug\Townbuilder.pdb
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\bin\Debug\MySql.Data.DLL
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.csproj.AssemblyReference.cache
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.frm_menu.resources
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.frm_login.resources
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.frm_register.resources
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.Properties.Resources.resources
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.csproj.GenerateResource.cache
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.csproj.CoreCompileInputs.cache
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.exe
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.pdb
+C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.frm_town.resources
