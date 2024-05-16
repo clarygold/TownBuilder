@@ -10,26 +10,26 @@ using System.Windows.Forms;
 
 namespace Townbuilder
 {
-    public partial class frm_menu : Form
+    public partial class frm_login : Form
     {
-        public frm_menu()
+        public frm_login()
         {
             InitializeComponent();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void tb_username_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void pb_register_Click(object sender, EventArgs e)
+        private void pb_loginpress_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pb_leave_Click(object sender, EventArgs e)
+        private void pb_registerpress_Click(object sender, EventArgs e)
         {
-            this.Close();
+
         }
     }
 }

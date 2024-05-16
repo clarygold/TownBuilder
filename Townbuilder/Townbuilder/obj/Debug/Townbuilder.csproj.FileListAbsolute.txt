@@ -1,0 +1,11 @@
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\bin\Debug\Townbuilder.exe.config
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\bin\Debug\Townbuilder.exe
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\bin\Debug\Townbuilder.pdb
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.csproj.AssemblyReference.cache
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.csproj.SuggestedBindingRedirects.cache
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.frm_menu.resources
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.Properties.Resources.resources
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.csproj.GenerateResource.cache
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.csproj.CoreCompileInputs.cache
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.exe
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.pdb
