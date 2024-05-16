@@ -97,6 +97,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -110,6 +111,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menulogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menulogin2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menulogin3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuRegister.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuClose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuloginNoHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuRegisterNoHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuClosenohover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuClosenohover2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuClose2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuRegisterNoHover2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuRegister2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -33,5 +33,36 @@ namespace Townbuilder
         {
             this.Close();
         }
+
+        private void pb_login_MouseHover(object sender, EventArgs e)
+        {
+            pb_login.Image = Properties.Resources.Menulogin3;
+        }
+
+        private void pb_login_MouseLeave(object sender, EventArgs e)
+        {
+            pb_login.Image = Properties.Resources.MenuloginNoHover;
+        }
+
+        private void pb_register_MouseHover(object sender, EventArgs e)
+        {
+            pb_register.Image = Properties.Resources.MenuRegister2;
+        }
+
+        private void pb_register_MouseLeave(object sender, EventArgs e)
+        {
+            pb_register.Image = Properties.Resources.MenuRegisterNoHover2;
+        }
+
+        private void pb_leave_MouseHover(object sender, EventArgs e)
+        {
+            pb_leave.Image = Properties.Resources.MenuClose2;
+
+        }
+
+        private void pb_leave_MouseLeave(object sender, EventArgs e)
+        {
+            pb_leave.Image = Properties.Resources.MenuClosenohover2;
+        }
     }
 }
