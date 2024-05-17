@@ -63,6 +63,46 @@ namespace Townbuilder.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AufstiegMenu {
+            get {
+                object obj = ResourceManager.GetObject("AufstiegMenu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Backbtn {
+            get {
+                object obj = ResourceManager.GetObject("Backbtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loginbtn {
+            get {
+                object obj = ResourceManager.GetObject("loginbtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LoginMenu {
+            get {
+                object obj = ResourceManager.GetObject("LoginMenu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Menu2 {
             get {
                 object obj = ResourceManager.GetObject("Menu2", resourceCulture);
@@ -186,6 +226,26 @@ namespace Townbuilder.Properties {
         internal static System.Drawing.Bitmap MenuRegisterNoHover2 {
             get {
                 object obj = ResourceManager.GetObject("MenuRegisterNoHover2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RegisterBtn {
+            get {
+                object obj = ResourceManager.GetObject("RegisterBtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RegisterMenu {
+            get {
+                object obj = ResourceManager.GetObject("RegisterMenu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

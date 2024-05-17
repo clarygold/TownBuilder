@@ -151,5 +151,23 @@
   <ItemGroup>
     <None Include="Resources\MenuRegister2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AufstiegMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RegisterBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RegisterMenu.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
