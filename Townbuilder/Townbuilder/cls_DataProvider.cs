@@ -28,7 +28,7 @@ namespace Townbuilder
             }
             catch (Exception ex)
             {
-                MessageBox.Show(string.Format("Fehler: {0}", ex));
+                MessageBox.Show("Der Benutzer existiert bereits");
                 conn.Close();
             }
         }
@@ -153,6 +153,30 @@ namespace Townbuilder
                     }
                 }
             }
+        }
+        public static void UpdateGegnerGame(cls_user u)
+        {
+            //WICHTIG BRAUCHST AUCH VOM GEGNER (ALSO BEI IHM GOLD UND STADT REPARIEREN UPDATEN)
+
+            //MySqlConnection conn = new MySqlConnection(connectionString);
+            //string query = "UPDATE tbl_townbuilder SET geld = @geld, levelstadt=@leveldungeon, levelwaffe =@levelwaffe,levelruestung=@levelruestung WHERE id=@id;";
+            //MySqlCommand cmd = new MySqlCommand(query, conn);
+            //cmd.Parameters.Add("geld", MySqlDbType.Int32).Value = u.Geld;
+            //cmd.Parameters.Add("leveldungeon", MySqlDbType.Int32).Value = u.Leveldungeon;
+            //cmd.Parameters.Add("levelwaffe", MySqlDbType.Int32).Value = u.Levelwaffe;
+            //cmd.Parameters.Add("levelruestung", MySqlDbType.Int32).Value = u.Levelruestung;
+            //cmd.CommandTimeout = 60;
+            //try
+            //{
+            //    conn.Open();
+            //    cmd.ExecuteNonQuery();
+            //    conn.Close();
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Die Datenbankverbindung hat nicht funktioniert");
+            //    conn.Close();
+            //}
         }
         //WERTE DIE AM ENDE DES ONLINE SPIELES ABGEZOGEN WERDEN, MÜSSEN IN DER DB NOCH GEUPDATED WERDEN
     }

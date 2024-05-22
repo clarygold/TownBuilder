@@ -32,7 +32,6 @@ namespace Townbuilder
             }
             else
             {
-                MessageBox.Show(string.Format("Geld: {0}", u.Geld));
                 frm_town s = new frm_town(u);
                 s.ShowDialog();
             }
