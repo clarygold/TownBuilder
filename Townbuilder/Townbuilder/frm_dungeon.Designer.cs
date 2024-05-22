@@ -36,6 +36,7 @@
             this.pb_enemy = new System.Windows.Forms.PictureBox();
             this.lbl_hp = new System.Windows.Forms.Label();
             this.tmr_hpcheck = new System.Windows.Forms.Timer(this.components);
+            this.lbl_orcleben = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb_hp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_weapon)).BeginInit();
@@ -88,6 +89,7 @@
             this.pb_enemy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_enemy.TabIndex = 0;
             this.pb_enemy.TabStop = false;
+            this.pb_enemy.Click += new System.EventHandler(this.pb_enemy_Click);
             // 
             // lbl_hp
             // 
@@ -104,11 +106,22 @@
             this.tmr_hpcheck.Enabled = true;
             this.tmr_hpcheck.Tick += new System.EventHandler(this.tmr_hpcheck_Tick);
             // 
+            // lbl_orcleben
+            // 
+            this.lbl_orcleben.AutoSize = true;
+            this.lbl_orcleben.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_orcleben.Location = new System.Drawing.Point(1223, 19);
+            this.lbl_orcleben.Name = "lbl_orcleben";
+            this.lbl_orcleben.Size = new System.Drawing.Size(30, 24);
+            this.lbl_orcleben.TabIndex = 5;
+            this.lbl_orcleben.Text = "10";
+            // 
             // frm_dungeon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.lbl_orcleben);
             this.Controls.Add(this.lbl_hp);
             this.Controls.Add(this.pb_hp);
             this.Controls.Add(this.pb_player);
@@ -120,6 +133,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_dungeon";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frm_dungeon_KeyDown);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.frm_dungeon_MouseClick);
             ((System.ComponentModel.ISupportInitialize)(this.pb_hp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_player)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_weapon)).EndInit();
@@ -138,5 +152,6 @@
         private System.Windows.Forms.PictureBox pb_enemy;
         private System.Windows.Forms.Label lbl_hp;
         private System.Windows.Forms.Timer tmr_hpcheck;
+        private System.Windows.Forms.Label lbl_orcleben;
     }
 }

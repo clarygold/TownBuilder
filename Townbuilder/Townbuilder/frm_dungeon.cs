@@ -18,11 +18,16 @@ namespace Townbuilder
         Timer tmr_roll = new Timer();
         Timer tmr_cooldownroll = new Timer();
         Timer tmr_orchitshm = new Timer();
+        Timer tmr_hit = new Timer();
+        Timer tmr_hitcooldown = new Timer();
 
         int orctick = 0;
         int hp = 10;
         int roll = 0;
         int cooldown = 0;
+        int hit = 0;
+        int hitcooldown = 0;
+        int orcleben = 10;
 
         public frm_dungeon()
         {
@@ -36,6 +41,10 @@ namespace Townbuilder
             tmr_orchitshm.Tick += tmr_orchitshm_Tick;
             tmr_orchitshm.Interval = 1000;
             tmr_orchitshm.Start();
+            tmr_hit.Tick += tmr_hit_Tick;
+            tmr_hit.Interval = 2000;
+            tmr_hitcooldown.Tick += tmr_hitcooldown_Tick;
+            tmr_hitcooldown.Interval = 3000;
         }
 
         public void pictureBox2_Click(object sender, EventArgs e)
@@ -76,7 +85,7 @@ namespace Townbuilder
 
         private void frm_dungeon_KeyDown(object sender, KeyEventArgs e)
         {
-            if(cooldown==0&&roll==0&&e.KeyCode == Keys.Space) 
+            if (hit == 0&&cooldown==0&&roll==0&&e.KeyCode == Keys.Space) 
             {
                 roll = 1;
                 pb_player.BackColor = Color.White;
@@ -94,6 +103,7 @@ namespace Townbuilder
         private void tmr_hpcheck_Tick(object sender, EventArgs e)
         {
             lbl_hp.Text = hp.ToString();
+            lbl_orcleben.Text = orcleben.ToString();
         }
         public void tmr_orchitshm_Tick(object sender, EventArgs e)
         {
@@ -104,6 +114,35 @@ namespace Townbuilder
                 pb_enemy.Image = Properties.Resources.orc;
                 tmr_orchits.Start();
                 tmr_orchitshm.Stop();
+            }
+        }
+
+        private void frm_dungeon_MouseClick(object sender, MouseEventArgs e)
+        {
+            //hintergrundklick (unnötig eigentlich)
+        }
+        public void tmr_hit_Tick(object sender, EventArgs e)
+        {
+            hit = 0;
+            tmr_hitcooldown.Start();
+            pb_player.BackColor = Color.DarkGray;
+            tmr_hit.Stop();
+        }
+        public void tmr_hitcooldown_Tick(object sender, EventArgs e)
+        {
+            hitcooldown = 0;
+            tmr_hitcooldown.Stop();
+        }
+
+        private void pb_enemy_Click(object sender, EventArgs e)
+        {
+            if (hitcooldown == 0 && hit == 0 && roll == 0)
+            {
+                hit = 1;
+                hitcooldown = 1;
+                pb_player.BackColor = Color.Red;
+
+                tmr_hit.Start();
             }
         }
     }
