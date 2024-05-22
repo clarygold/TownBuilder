@@ -56,16 +56,104 @@ namespace Townbuilder
                     u.Levelstadt = Convert.ToInt32(reader[8]);
                     u.Stadtkaputt = Convert.ToInt32(reader[9]);
                     u.Leveldungeon = Convert.ToInt32(reader[10]);
-                    u.Geld = Convert.ToInt32(reader[11]);
-                    u.Profilbild = Convert.ToInt32(reader[13]);
+                    u.Geld = Convert.ToInt32(reader[12]);
+                    u.Profilbild = Convert.ToInt32(reader[14]);
+                    u.Id = Convert.ToInt32(reader[11]);
                 }
                 conn.Close();
             }
-            catch(Exception ex)
+            catch
             {
-                MessageBox.Show(string.Format("{0}",ex));
+                MessageBox.Show("Die Datenbankverbindung hat nicht funktioniert");
                 conn.Close();
             }
         }
+        public static void UpdateDungeonEnde(cls_user u)
+        {
+            MySqlConnection conn = new MySqlConnection(connectionString);
+            string query = "UPDATE tbl_townbuilder SET geld = @geld, leveldungeon=@leveldungeon, levelwaffe =@levelwaffe,levelruestung=@levelruestung WHERE id=@id;";
+            MySqlCommand cmd = new MySqlCommand(query, conn);
+            cmd.Parameters.Add("geld", MySqlDbType.Int32).Value = u.Geld;
+            cmd.Parameters.Add("leveldungeon", MySqlDbType.Int32).Value = u.Leveldungeon;
+            cmd.Parameters.Add("levelwaffe", MySqlDbType.Int32).Value = u.Levelwaffe;
+            cmd.Parameters.Add("levelruestung", MySqlDbType.Int32).Value = u.Levelruestung;
+            cmd.CommandTimeout = 60;
+            try
+            {
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                conn.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Die Datenbankverbindung hat nicht funktioniert");
+                conn.Close();
+            }
+        }
+        public static void SelectRandomGegner(cls_user u, cls_user g)//g=gegner
+        {
+            MySqlConnection conn = new MySqlConnection(connectionString);
+            string query = "SELECT MAX(id) FROM tbl_townbuilder";
+            MySqlCommand cmd = new MySqlCommand(query, conn);
+            cmd.CommandTimeout = 60;
+            int i = 0;
+            try
+            {
+                conn.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while(reader.Read())
+                {
+                    i = Convert.ToInt32(reader[0]);
+                }
+                conn.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Die Datenbankverbindung hat nicht funktioniert");
+                conn.Close();
+            }
+            Random r = new Random();
+            bool istok = true;
+            while (istok == true)
+            {
+                int id = r.Next(1, i);
+                if (id != u.Id)
+                {
+                    query = "SELECT username, leveluser, wache, levelwache, levelstadt, stadtkaputt, geld, profilbild, id FROM tbl_townbuilder WHERE id =@id;";
+                    cmd = new MySqlCommand(query, conn);
+                    cmd.Parameters.Add("id", MySqlDbType.Int32).Value = id;
+                    cmd.CommandTimeout = 60;
+                    try
+                    {
+                        conn.Open();
+                        MySqlDataReader reader = cmd.ExecuteReader();
+                        while (reader.Read())
+                        {
+                            g.User = Convert.ToString(reader[0]);
+                            g.Leveluser = Convert.ToInt32(reader[1]);
+                            g.Wache = Convert.ToInt32(reader[2]);
+                            g.Levelwache = Convert.ToInt32(reader[3]);
+                            g.Levelstadt = Convert.ToInt32(reader[4]);
+                            g.Stadtkaputt = Convert.ToInt32(reader[5]);
+                            g.Geld = Convert.ToInt32(reader[6]);
+                            g.Profilbild = Convert.ToInt32(reader[7]);
+                            g.Id = Convert.ToInt32(reader[8]);
+                        }
+                        conn.Close();
+                        if(g.Stadtkaputt==0&&g.Id!=null)
+                        {
+                            istok = false;
+                            MessageBox.Show(string.Format("Id: {0}", u.Id));
+                        }
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Die Datenbankverbindung hat nicht funktioniert");
+                        conn.Close();
+                    }
+                }
+            }
+        }
+        //WERTE DIE AM ENDE DES ONLINE SPIELES ABGEZOGEN WERDEN, MÜSSEN IN DER DB NOCH GEUPDATED WERDEN
     }
 }

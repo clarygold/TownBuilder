@@ -22,6 +22,7 @@ namespace Townbuilder
         int m_geld;
         string m_password;
         int m_profilbild;
+        int m_id;
 
         public string User { get => m_user; set => m_user = value; }
         public int Leveluser { get => m_leveluser; set => m_leveluser = value; }
@@ -37,7 +38,9 @@ namespace Townbuilder
         public int Geld { get => m_geld; set => m_geld = value; }
         public string Password { get => m_password; set => m_password = value; }
         public int Profilbild { get => m_profilbild; set => m_profilbild = value; }
-        public cls_user(string user, int leveluser, int waffe, int levelwaffe, int ruestung, int levelruestung, int wache, int levelwache, int levelstadt, int stadtkaputt, int leveldungeon, int geld, int bild, string passwort)
+        public int Id { get => m_id; set => m_id = value; }
+
+        public cls_user(string user, int leveluser, int waffe, int levelwaffe, int ruestung, int levelruestung, int wache, int levelwache, int levelstadt, int stadtkaputt, int leveldungeon, int geld, int bild, string passwort, int id)
         {
             m_user = user;
             m_leveluser = leveluser;
@@ -53,6 +56,7 @@ namespace Townbuilder
             m_geld = geld;
             m_profilbild = bild;
             m_password = passwort;
+            m_id = id;
         }
         public cls_user(string user, string password, int bild)
         {
@@ -64,6 +68,18 @@ namespace Townbuilder
         {
             m_user = user;
             m_password = password;
+        }
+        public cls_user(string user, int leveluser, int wache, int levelwache, int levelstadt, int stadtkaputt, int geld, int bild, int id)
+        {
+            m_user = user;
+            m_leveluser = leveluser;
+            m_wache = wache;
+            m_levelwache = levelwache;
+            m_levelstadt = levelstadt;
+            m_stadtkaputt = stadtkaputt;
+            m_geld = geld;
+            m_profilbild = bild;
+            m_id = id;
         }
     }
 }
