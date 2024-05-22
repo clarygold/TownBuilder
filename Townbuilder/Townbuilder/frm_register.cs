@@ -54,18 +54,7 @@ namespace Townbuilder
             {
                 cls_user u = new cls_user(tb_username.Text, tb_password.Text, bild);
                 cls_DataProvider.InsertData(u);
-                frm_town s = new frm_town(u);
-                u.Leveluser = 1;
-                u.Waffe = 1;
-                u.Levelwaffe = 1;
-                u.Ruestung = 1;
-                u.Levelruestung = 1;
-                u.Wache = 0;
-                u.Levelwache = 1;
-                u.Levelstadt = 1;
-                u.Stadtkaputt = 0;
-                u.Leveldungeon = 1;
-                u.Geld = 0;
+                frm_menu s = new frm_menu();
                 s.ShowDialog();
             }
             else
