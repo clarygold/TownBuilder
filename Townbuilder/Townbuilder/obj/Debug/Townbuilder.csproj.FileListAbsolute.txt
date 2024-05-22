@@ -38,5 +38,4 @@ C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\To
 C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.frm_register.resources
 C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.frm_town.resources
 C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.csproj.CopyComplete
-C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\bin\Debug\BouncyCastle.Crypto.dll
-C:\Users\laras\Documents\3_Jahrgang\APR\Abschlussprojekt\15.05.2024\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.csproj.CopyComplete
+C:\Users\Simon\Documents\Schule\3. Klasse 2.0\APR\TownBuilder\Git\TownBuilder\Townbuilder\Townbuilder\obj\Debug\Townbuilder.frm_dungeon.resources

@@ -64,5 +64,11 @@ namespace Townbuilder
         {
             pb_leave.Image = Properties.Resources.MenuClosenohover2;
         }
+
+        private void pb_debug_Click(object sender, EventArgs e)
+        {
+            frm_town twn = new frm_town();
+            twn.ShowDialog();
+        }
     }
 }

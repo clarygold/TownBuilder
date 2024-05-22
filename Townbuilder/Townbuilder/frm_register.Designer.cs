@@ -93,9 +93,9 @@
             // pbx_bild9
             // 
             this.pbx_bild9.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pbx_bild9.Location = new System.Drawing.Point(956, 471);
+            this.pbx_bild9.Location = new System.Drawing.Point(956, 496);
             this.pbx_bild9.Name = "pbx_bild9";
-            this.pbx_bild9.Size = new System.Drawing.Size(107, 105);
+            this.pbx_bild9.Size = new System.Drawing.Size(107, 127);
             this.pbx_bild9.TabIndex = 14;
             this.pbx_bild9.TabStop = false;
             this.pbx_bild9.Click += new System.EventHandler(this.pbx_bild9_Click);
@@ -103,9 +103,9 @@
             // pbx_bild8
             // 
             this.pbx_bild8.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pbx_bild8.Location = new System.Drawing.Point(843, 471);
+            this.pbx_bild8.Location = new System.Drawing.Point(843, 496);
             this.pbx_bild8.Name = "pbx_bild8";
-            this.pbx_bild8.Size = new System.Drawing.Size(107, 105);
+            this.pbx_bild8.Size = new System.Drawing.Size(107, 127);
             this.pbx_bild8.TabIndex = 13;
             this.pbx_bild8.TabStop = false;
             this.pbx_bild8.Click += new System.EventHandler(this.pbx_bild8_Click);
@@ -113,9 +113,9 @@
             // pbx_bild7
             // 
             this.pbx_bild7.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pbx_bild7.Location = new System.Drawing.Point(730, 471);
+            this.pbx_bild7.Location = new System.Drawing.Point(730, 496);
             this.pbx_bild7.Name = "pbx_bild7";
-            this.pbx_bild7.Size = new System.Drawing.Size(107, 105);
+            this.pbx_bild7.Size = new System.Drawing.Size(107, 127);
             this.pbx_bild7.TabIndex = 12;
             this.pbx_bild7.TabStop = false;
             this.pbx_bild7.Click += new System.EventHandler(this.pbx_bild7_Click);
@@ -123,9 +123,9 @@
             // pbx_bild6
             // 
             this.pbx_bild6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pbx_bild6.Location = new System.Drawing.Point(956, 360);
+            this.pbx_bild6.Location = new System.Drawing.Point(956, 362);
             this.pbx_bild6.Name = "pbx_bild6";
-            this.pbx_bild6.Size = new System.Drawing.Size(107, 105);
+            this.pbx_bild6.Size = new System.Drawing.Size(107, 127);
             this.pbx_bild6.TabIndex = 11;
             this.pbx_bild6.TabStop = false;
             this.pbx_bild6.Click += new System.EventHandler(this.pbx_bild6_Click);
@@ -133,9 +133,9 @@
             // pbx_bild5
             // 
             this.pbx_bild5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pbx_bild5.Location = new System.Drawing.Point(843, 360);
+            this.pbx_bild5.Location = new System.Drawing.Point(843, 363);
             this.pbx_bild5.Name = "pbx_bild5";
-            this.pbx_bild5.Size = new System.Drawing.Size(107, 105);
+            this.pbx_bild5.Size = new System.Drawing.Size(107, 127);
             this.pbx_bild5.TabIndex = 10;
             this.pbx_bild5.TabStop = false;
             this.pbx_bild5.Click += new System.EventHandler(this.pbx_bild5_Click);
@@ -143,9 +143,9 @@
             // pbx_bild4
             // 
             this.pbx_bild4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pbx_bild4.Location = new System.Drawing.Point(730, 360);
+            this.pbx_bild4.Location = new System.Drawing.Point(730, 362);
             this.pbx_bild4.Name = "pbx_bild4";
-            this.pbx_bild4.Size = new System.Drawing.Size(107, 105);
+            this.pbx_bild4.Size = new System.Drawing.Size(107, 127);
             this.pbx_bild4.TabIndex = 9;
             this.pbx_bild4.TabStop = false;
             this.pbx_bild4.Click += new System.EventHandler(this.pbx_bild4_Click);
@@ -153,9 +153,9 @@
             // pbx_bild3
             // 
             this.pbx_bild3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pbx_bild3.Location = new System.Drawing.Point(956, 249);
+            this.pbx_bild3.Location = new System.Drawing.Point(956, 227);
             this.pbx_bild3.Name = "pbx_bild3";
-            this.pbx_bild3.Size = new System.Drawing.Size(107, 105);
+            this.pbx_bild3.Size = new System.Drawing.Size(107, 127);
             this.pbx_bild3.TabIndex = 8;
             this.pbx_bild3.TabStop = false;
             this.pbx_bild3.Click += new System.EventHandler(this.pbx_bild3_Click);
@@ -163,9 +163,9 @@
             // pbx_bild2
             // 
             this.pbx_bild2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pbx_bild2.Location = new System.Drawing.Point(843, 249);
+            this.pbx_bild2.Location = new System.Drawing.Point(843, 228);
             this.pbx_bild2.Name = "pbx_bild2";
-            this.pbx_bild2.Size = new System.Drawing.Size(107, 105);
+            this.pbx_bild2.Size = new System.Drawing.Size(107, 127);
             this.pbx_bild2.TabIndex = 7;
             this.pbx_bild2.TabStop = false;
             this.pbx_bild2.Click += new System.EventHandler(this.pbx_bild2_Click);
@@ -173,9 +173,9 @@
             // pbx_bild1
             // 
             this.pbx_bild1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pbx_bild1.Location = new System.Drawing.Point(730, 249);
+            this.pbx_bild1.Location = new System.Drawing.Point(730, 229);
             this.pbx_bild1.Name = "pbx_bild1";
-            this.pbx_bild1.Size = new System.Drawing.Size(107, 105);
+            this.pbx_bild1.Size = new System.Drawing.Size(107, 127);
             this.pbx_bild1.TabIndex = 6;
             this.pbx_bild1.TabStop = false;
             this.pbx_bild1.Click += new System.EventHandler(this.pictureBox2_Click);
