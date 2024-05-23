@@ -57,6 +57,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_attacktown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_attacktown.Designer.cs">
+      <DependentUpon>frm_attacktown.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_dungeon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_attacktown.resx">
+      <DependentUpon>frm_attacktown.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_dungeon.resx">
       <DependentUpon>frm_dungeon.cs</DependentUpon>
@@ -183,6 +192,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\orcstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scalestand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giantsword.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giantswordstand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giantsword2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sword.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swordstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\axe.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\axestanding.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

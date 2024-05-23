@@ -118,67 +118,94 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MenuClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuClose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Backbtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MenuRegisterNoHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuRegisterNoHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Menulogin3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Menulogin3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MenuClose2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuClose2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LoginMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LoginMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Menulogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Menulogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MenuRegister" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuRegister.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MenuRegister2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuRegister2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MenuClosenohover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuClosenohover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MenuRegisterNoHover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuRegisterNoHover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MenuClosenohover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuClosenohover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RegisterBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RegisterBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Menulogin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Menulogin2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="AufstiegMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AufstiegMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MenuloginNoHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuloginNoHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scale.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Menu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menu2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MenuClosenohover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuClosenohover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menulogin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menulogin2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoginMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giantsword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giantsword.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="loginbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loginbtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RegisterMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RegisterMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MenuRegisterNoHover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuRegisterNoHover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuRegister2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuRegister2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuClose2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuClose2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuloginNoHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuloginNoHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RegisterBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RegisterBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giantswordstand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giantswordstand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="orc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\orc.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MenuRegisterNoHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuRegisterNoHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backbtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RegisterMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RegisterMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AufstiegMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AufstiegMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuClosenohover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuClosenohover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scalestand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scalestand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="orcstanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\orcstanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuRegister" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuRegister.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuClose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menulogin3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menulogin3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menulogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menulogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giantsword2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giantsword2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swordstanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swordstanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sword.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\axe.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="axestanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\axestanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

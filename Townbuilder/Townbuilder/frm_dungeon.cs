@@ -28,6 +28,12 @@ namespace Townbuilder
         int hit = 0;
         int hitcooldown = 0;
         int orcleben = 10;
+        int aus = 0;
+        int orcdmg = 1;
+        int playerdmg = 1;
+
+        int armor = 1;
+        int weapon = 1;
 
         public frm_dungeon()
         {
@@ -45,6 +51,9 @@ namespace Townbuilder
             tmr_hit.Interval = 2000;
             tmr_hitcooldown.Tick += tmr_hitcooldown_Tick;
             tmr_hitcooldown.Interval = 3000;
+
+
+            //if abfrage für schwert und rüstungen
         }
 
         public void pictureBox2_Click(object sender, EventArgs e)
@@ -61,7 +70,7 @@ namespace Townbuilder
             {
                 if(roll==0)
                 {
-                    hp--;
+                    hp -= orcdmg;
                 }
             }
             if(orctick == 3)
@@ -104,6 +113,23 @@ namespace Townbuilder
         {
             lbl_hp.Text = hp.ToString();
             lbl_orcleben.Text = orcleben.ToString();
+            if(hp<=0&&aus==0)
+            {
+                aus = 1;
+                //ENDE
+                MessageBox.Show("You died.");
+                tmr_orchitshm.Stop();
+                tmr_hpcheck.Stop();
+            }
+            if(orcleben<=0&&aus==0)
+            {
+                aus = 1;
+                //ENDE (weitergehen/aufhören)
+                MessageBox.Show("Enemy slain.");
+                tmr_orchitshm.Stop();
+                tmr_hpcheck.Stop();
+
+            }
         }
         public void tmr_orchitshm_Tick(object sender, EventArgs e)
         {
@@ -125,7 +151,15 @@ namespace Townbuilder
         {
             hit = 0;
             tmr_hitcooldown.Start();
-            pb_player.BackColor = Color.DarkGray;
+
+            //rüstungen
+            pb_player.Image = Properties.Resources.scalestand;
+
+            //waffen
+            //pb_weapon.Image = Properties.Resources.giantswordstand;
+            //pb_weapon.Image = Properties.Resources.swordstanding;
+            pb_weapon.Image = Properties.Resources.axestanding;
+
             tmr_hit.Stop();
         }
         public void tmr_hitcooldown_Tick(object sender, EventArgs e)
@@ -140,7 +174,17 @@ namespace Townbuilder
             {
                 hit = 1;
                 hitcooldown = 1;
-                pb_player.BackColor = Color.Red;
+
+                //Rüstungen
+                pb_player.Image = Properties.Resources.scale;
+
+                //Waffen
+                //pb_weapon.Image = Properties.Resources.giantsword2;
+                //pb_weapon.Image = Properties.Resources.sword;
+                pb_weapon.Image = Properties.Resources.axe;
+
+
+                orcleben -= playerdmg;
 
                 tmr_hit.Start();
             }

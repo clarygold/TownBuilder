@@ -32,5 +32,10 @@ namespace Townbuilder
             frm_dungeon dgn = new frm_dungeon();
             dgn.ShowDialog();
         }
+
+        private void pb_attacktown_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,67 +29,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pb_hp = new System.Windows.Forms.PictureBox();
-            this.pb_player = new System.Windows.Forms.PictureBox();
-            this.pb_weapon = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pb_enemy = new System.Windows.Forms.PictureBox();
             this.lbl_hp = new System.Windows.Forms.Label();
             this.tmr_hpcheck = new System.Windows.Forms.Timer(this.components);
             this.lbl_orcleben = new System.Windows.Forms.Label();
+            this.pb_hp = new System.Windows.Forms.PictureBox();
+            this.pb_player = new System.Windows.Forms.PictureBox();
+            this.pb_weapon = new System.Windows.Forms.PictureBox();
+            this.pb_enemy = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_hp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_weapon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_enemy)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pb_hp
-            // 
-            this.pb_hp.BackColor = System.Drawing.Color.Chocolate;
-            this.pb_hp.Location = new System.Drawing.Point(751, 632);
-            this.pb_hp.Name = "pb_hp";
-            this.pb_hp.Size = new System.Drawing.Size(517, 64);
-            this.pb_hp.TabIndex = 3;
-            this.pb_hp.TabStop = false;
-            this.pb_hp.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pb_player
-            // 
-            this.pb_player.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.pb_player.Location = new System.Drawing.Point(117, 341);
-            this.pb_player.Name = "pb_player";
-            this.pb_player.Size = new System.Drawing.Size(308, 385);
-            this.pb_player.TabIndex = 2;
-            this.pb_player.TabStop = false;
-            // 
-            // pb_weapon
-            // 
-            this.pb_weapon.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pb_weapon.Location = new System.Drawing.Point(419, 282);
-            this.pb_weapon.Name = "pb_weapon";
-            this.pb_weapon.Size = new System.Drawing.Size(287, 443);
-            this.pb_weapon.TabIndex = 1;
-            this.pb_weapon.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(419, 282);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(287, 443);
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pb_enemy
-            // 
-            this.pb_enemy.Image = global::Townbuilder.Properties.Resources.orcstanding;
-            this.pb_enemy.Location = new System.Drawing.Point(665, 49);
-            this.pb_enemy.Name = "pb_enemy";
-            this.pb_enemy.Size = new System.Drawing.Size(447, 458);
-            this.pb_enemy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb_enemy.TabIndex = 0;
-            this.pb_enemy.TabStop = false;
-            this.pb_enemy.Click += new System.EventHandler(this.pb_enemy_Click);
             // 
             // lbl_hp
             // 
@@ -116,17 +67,60 @@
             this.lbl_orcleben.TabIndex = 5;
             this.lbl_orcleben.Text = "10";
             // 
+            // pb_hp
+            // 
+            this.pb_hp.BackColor = System.Drawing.Color.Chocolate;
+            this.pb_hp.Location = new System.Drawing.Point(751, 632);
+            this.pb_hp.Name = "pb_hp";
+            this.pb_hp.Size = new System.Drawing.Size(517, 64);
+            this.pb_hp.TabIndex = 3;
+            this.pb_hp.TabStop = false;
+            this.pb_hp.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pb_player
+            // 
+            this.pb_player.BackColor = System.Drawing.Color.Transparent;
+            this.pb_player.Image = global::Townbuilder.Properties.Resources.scalestand;
+            this.pb_player.Location = new System.Drawing.Point(222, 217);
+            this.pb_player.Name = "pb_player";
+            this.pb_player.Size = new System.Drawing.Size(304, 511);
+            this.pb_player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_player.TabIndex = 2;
+            this.pb_player.TabStop = false;
+            // 
+            // pb_weapon
+            // 
+            this.pb_weapon.BackColor = System.Drawing.Color.Transparent;
+            this.pb_weapon.Image = global::Townbuilder.Properties.Resources.axestanding;
+            this.pb_weapon.Location = new System.Drawing.Point(526, 219);
+            this.pb_weapon.Name = "pb_weapon";
+            this.pb_weapon.Size = new System.Drawing.Size(176, 511);
+            this.pb_weapon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_weapon.TabIndex = 1;
+            this.pb_weapon.TabStop = false;
+            // 
+            // pb_enemy
+            // 
+            this.pb_enemy.Image = global::Townbuilder.Properties.Resources.orcstanding;
+            this.pb_enemy.Location = new System.Drawing.Point(665, 49);
+            this.pb_enemy.Name = "pb_enemy";
+            this.pb_enemy.Size = new System.Drawing.Size(447, 458);
+            this.pb_enemy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_enemy.TabIndex = 0;
+            this.pb_enemy.TabStop = false;
+            this.pb_enemy.Click += new System.EventHandler(this.pb_enemy_Click);
+            // 
             // frm_dungeon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.lbl_orcleben);
             this.Controls.Add(this.lbl_hp);
             this.Controls.Add(this.pb_hp);
             this.Controls.Add(this.pb_player);
             this.Controls.Add(this.pb_weapon);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pb_enemy);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_dungeon";
@@ -137,7 +131,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb_hp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_player)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_weapon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_enemy)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -146,7 +139,6 @@
 
         #endregion
         private System.Windows.Forms.PictureBox pb_player;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pb_weapon;
         private System.Windows.Forms.PictureBox pb_hp;
         private System.Windows.Forms.PictureBox pb_enemy;
