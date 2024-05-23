@@ -32,8 +32,8 @@ namespace Townbuilder
         int orcdmg = 1;
         int playerdmg = 1;
 
-        int armor = 1;
-        int weapon = 1;
+        int armor = 3;
+        int weapon = 3;
 
         public frm_dungeon()
         {
@@ -53,7 +53,69 @@ namespace Townbuilder
             tmr_hitcooldown.Interval = 3000;
 
 
-            //if abfrage für schwert und rüstungen
+            //Rüstungen
+            if(armor==1)
+            {
+                //leder
+                pb_player.Image = Properties.Resources.leatherstanding;
+
+            }
+            else if (armor == 2)
+            {
+                //tribal
+                pb_player.Image = Properties.Resources.tribalstanding;
+
+            }
+            else if (armor == 3)
+            {
+                //scale
+                pb_player.Image = Properties.Resources.scalestand1;
+
+            }
+            else if (armor == 4)
+            {
+                //dia
+                pb_player.Image = Properties.Resources.diamondstanding;
+
+            }
+            else if (armor == 5)
+            {
+                //thief
+                pb_player.Image = Properties.Resources.thiefstanding;
+
+            }
+            else if (armor == 6)
+            {
+                //secret
+                pb_player.Image = Properties.Resources.secretstanding;
+            }
+
+            //Waffen
+            if(weapon==1) 
+            {
+                //Schwert
+                pb_weapon.Image = Properties.Resources.swordstanding;
+            }
+            else if(weapon==2) 
+            {
+                pb_weapon.Image = Properties.Resources.axestanding;
+            }
+            else if(weapon==3) 
+            {
+                pb_weapon.Image = Properties.Resources.giantswordstand;
+            }
+            else if(weapon==4)
+            {
+                //flammenschwert
+            }
+            else if(weapon==5)
+            {
+                //morgenstern
+            }
+            else if(weapon==6) 
+            {
+                //hammer
+            }
         }
 
         public void pictureBox2_Click(object sender, EventArgs e)
@@ -85,7 +147,7 @@ namespace Townbuilder
         public void tmr_roll_Tick(object sender, EventArgs e)
         {
             
-            pb_player.BackColor = Color.DarkGray;
+            pb_player.BackColor = Color.Transparent;
             roll = 0;
 
             tmr_roll.Stop();
@@ -153,12 +215,70 @@ namespace Townbuilder
             tmr_hitcooldown.Start();
 
             //rüstungen
-            pb_player.Image = Properties.Resources.scalestand;
+            if (armor == 1)
+            {
+                //leder
+                pb_player.Image = Properties.Resources.leatherstanding;
 
-            //waffen
-            //pb_weapon.Image = Properties.Resources.giantswordstand;
-            //pb_weapon.Image = Properties.Resources.swordstanding;
-            pb_weapon.Image = Properties.Resources.axestanding;
+            }
+            else if (armor == 2)
+            {
+                //tribal
+                pb_player.Image = Properties.Resources.tribalstanding;
+
+            }
+            else if (armor == 3)
+            {
+                //scale
+                pb_player.Image = Properties.Resources.scalestand1;
+
+            }
+            else if (armor == 4)
+            {
+                //dia
+                pb_player.Image = Properties.Resources.diamondstanding;
+
+            }
+            else if (armor == 5)
+            {
+                //thief
+                pb_player.Image = Properties.Resources.thiefstanding;
+
+            }
+            else if (armor == 6)
+            {
+                //secret
+                pb_player.Image = Properties.Resources.secretstanding;
+
+            }
+
+
+            //Waffen
+            if (weapon == 1)
+            {
+                //Schwert
+                pb_weapon.Image = Properties.Resources.swordstanding;
+            }
+            else if (weapon == 2)
+            {
+                pb_weapon.Image = Properties.Resources.axestanding;
+            }
+            else if (weapon == 3)
+            {
+                pb_weapon.Image = Properties.Resources.giantswordstand;
+            }
+            else if (weapon == 4)
+            {
+                //flammenschwert
+            }
+            else if (weapon == 5)
+            {
+                //morgenstern
+            }
+            else if (weapon == 6)
+            {
+                //hammer
+            }
 
             tmr_hit.Stop();
         }
@@ -175,13 +295,69 @@ namespace Townbuilder
                 hit = 1;
                 hitcooldown = 1;
 
-                //Rüstungen
-                pb_player.Image = Properties.Resources.scale;
+                //Rüstungenatk
+                if (armor == 1)
+                {
+                    //leder
+                    pb_player.Image = Properties.Resources.leather;
 
-                //Waffen
-                //pb_weapon.Image = Properties.Resources.giantsword2;
-                //pb_weapon.Image = Properties.Resources.sword;
-                pb_weapon.Image = Properties.Resources.axe;
+                }
+                else if (armor == 2)
+                {
+                    //tribal
+                    pb_player.Image = Properties.Resources.tribal;
+
+                }
+                else if (armor == 3)
+                {
+                    //scale
+                    pb_player.Image = Properties.Resources.scale;
+
+                }
+                else if (armor == 4)
+                {
+                    //dia
+                    pb_player.Image = Properties.Resources.diamond;
+
+                }
+                else if (armor == 5)
+                {
+                    //thief
+                    pb_player.Image = Properties.Resources.thief;
+
+                }
+                else if (armor == 6)
+                {
+                    //secret
+                    pb_player.Image = Properties.Resources.secret;
+
+                }
+                //Waffenatk
+                if (weapon == 1)
+                {
+                    //Schwert
+                    pb_weapon.Image = Properties.Resources.sword;
+                }
+                else if (weapon == 2)
+                {
+                    pb_weapon.Image = Properties.Resources.axe;
+                }
+                else if (weapon == 3)
+                {
+                    pb_weapon.Image = Properties.Resources.giantsword;
+                }
+                else if (weapon == 4)
+                {
+                    //flammenschwert
+                }
+                else if (weapon == 5)
+                {
+                    //morgenstern
+                }
+                else if (weapon == 6)
+                {
+                    //hammer
+                }
 
 
                 orcleben -= playerdmg;

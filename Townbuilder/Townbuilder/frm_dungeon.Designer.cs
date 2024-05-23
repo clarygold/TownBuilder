@@ -80,7 +80,7 @@
             // pb_player
             // 
             this.pb_player.BackColor = System.Drawing.Color.Transparent;
-            this.pb_player.Image = global::Townbuilder.Properties.Resources.scalestand;
+            this.pb_player.Image = global::Townbuilder.Properties.Resources.tribalstanding;
             this.pb_player.Location = new System.Drawing.Point(222, 217);
             this.pb_player.Name = "pb_player";
             this.pb_player.Size = new System.Drawing.Size(304, 511);
@@ -91,7 +91,7 @@
             // pb_weapon
             // 
             this.pb_weapon.BackColor = System.Drawing.Color.Transparent;
-            this.pb_weapon.Image = global::Townbuilder.Properties.Resources.axestanding;
+            this.pb_weapon.Image = global::Townbuilder.Properties.Resources.giantswordstand;
             this.pb_weapon.Location = new System.Drawing.Point(526, 219);
             this.pb_weapon.Name = "pb_weapon";
             this.pb_weapon.Size = new System.Drawing.Size(176, 511);

@@ -139,11 +139,17 @@
   <data name="loginbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loginbtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="axestanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\axestanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MenuRegisterNoHover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuRegisterNoHover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MenuRegister2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuRegister2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\axe.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MenuClose2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuClose2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,10 +208,40 @@
   <data name="sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sword.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\axe.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="diamond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diamond.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="axestanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\axestanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="diamondstanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diamondstanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leather.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leatherstanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leatherstanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scale1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scale1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scalestand1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scalestand1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="secret" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\secret.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="secretstanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\secretstanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thief" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thief.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thiefstanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thiefstanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tribal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tribal.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tribalstanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tribalstanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

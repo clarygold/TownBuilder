@@ -220,5 +220,41 @@
   <ItemGroup>
     <None Include="Resources\axestanding.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamondstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leather.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leatherstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scalestand1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secret.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secretstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thief.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thiefstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tribal.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tribalstanding.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
