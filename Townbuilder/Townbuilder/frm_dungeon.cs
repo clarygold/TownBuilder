@@ -22,13 +22,19 @@ namespace Townbuilder
         Timer tmr_hitcooldown = new Timer();
 
         int orctick = 0;
+
         int hp = 10;
+        int hpvoll = 10;
+        double hpverh = 0;
+        
         int roll = 0;
         int cooldown = 0;
         int hit = 0;
         int hitcooldown = 0;
         int orcleben = 10;
+        
         int aus = 0;
+        
         int orcdmg = 1;
         int playerdmg = 1;
 
@@ -173,15 +179,64 @@ namespace Townbuilder
         }
         private void tmr_hpcheck_Tick(object sender, EventArgs e)
         {
+            if(hp!=0)
+            {
+                hpverh = hp * 100;
+                hpverh /= hpvoll;
+            }
+
+                if (hp == hpvoll)
+                {
+                    pb_hp.Image = Properties.Resources._100;
+                }
+                else if (hpverh > 80)
+                {
+                    pb_hp.Image = Properties.Resources._90;
+                }
+                else if (hpverh > 70)
+                {
+                    pb_hp.Image = Properties.Resources._80;
+                }
+                else if (hpverh > 60)
+                {
+                    pb_hp.Image = Properties.Resources._70;
+                }
+                else if (hpverh > 50)
+                {
+                    pb_hp.Image = Properties.Resources._60;
+                }
+                else if (hpverh > 40)
+                {
+                    pb_hp.Image = Properties.Resources._50;
+                }
+                else if (hpverh > 30)
+                {
+                    pb_hp.Image = Properties.Resources._40;
+                }
+                else if (hpverh > 20)
+                {
+                    pb_hp.Image = Properties.Resources._30;
+                }
+                else if (hpverh > 10)
+                {
+                    pb_hp.Image = Properties.Resources._20;
+                }
+                else if(hpverh <= 10)
+                {
+                    pb_hp.Image = Properties.Resources._10;
+                }
+            
             lbl_hp.Text = hp.ToString();
             lbl_orcleben.Text = orcleben.ToString();
             if(hp<=0&&aus==0)
             {
+                tmr_hpcheck.Stop();
+
+                pb_hp.Image = Properties.Resources._0;
                 aus = 1;
                 //ENDE
                 MessageBox.Show("You died.");
                 tmr_orchitshm.Stop();
-                tmr_hpcheck.Stop();
             }
             if(orcleben<=0&&aus==0)
             {
