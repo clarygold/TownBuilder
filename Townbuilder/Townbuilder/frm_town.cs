@@ -35,7 +35,8 @@ namespace Townbuilder
 
         private void pb_attacktown_Click(object sender, EventArgs e)
         {
-
+            frm_attacktown twn = new frm_attacktown();
+            twn.ShowDialog();
         }
     }
 }

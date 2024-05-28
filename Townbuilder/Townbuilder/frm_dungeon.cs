@@ -38,8 +38,8 @@ namespace Townbuilder
         int orcdmg = 1;
         int playerdmg = 1;
 
-        int armor = 3;
-        int weapon = 3;
+        int armor = 6;
+        int weapon = 2;
 
         public frm_dungeon()
         {
