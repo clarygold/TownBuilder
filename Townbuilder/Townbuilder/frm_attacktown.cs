@@ -39,7 +39,9 @@ namespace Townbuilder
         int armor = 6;
         int weapon = 2;
 
-        public frm_attacktown()
+        cls_user user;
+        cls_user gegner;
+        public frm_attacktown(cls_user u)
         {
             InitializeComponent();
             tmr_enemyhits.Tick += tmr_enemyhits_Tick;
@@ -55,8 +57,9 @@ namespace Townbuilder
             tmr_hit.Interval = 2000;
             tmr_hitcooldown.Tick += tmr_hitcooldown_Tick;
             tmr_hitcooldown.Interval = 3000;
-
-
+            user = u;
+            armor = user.Ruestung;
+            weapon = user.Waffe;
             //Rüstungen
             if (armor == 1)
             {
@@ -408,6 +411,7 @@ namespace Townbuilder
                 //ENDE
                 MessageBox.Show("You died.");
                 tmr_enemyhitshm.Stop();
+                cls_DataProvider.UpdateGegnerGame(user, gegner);
             }
             if (enemyleben <= 0 && aus == 0)
             {
@@ -416,7 +420,7 @@ namespace Townbuilder
                 MessageBox.Show("Enemy slain.");
                 tmr_enemyhitshm.Stop();
                 tmr_hpcheck.Stop();
-
+                cls_DataProvider.UpdateGegnerGame(user, gegner);
             }
         }
 
@@ -430,6 +434,13 @@ namespace Townbuilder
                 tmr_cooldownroll.Start();
                 tmr_roll.Start();
             }
+        }
+
+        private void frm_attacktown_Load(object sender, EventArgs e)
+        {
+            gegner = new cls_user();
+            cls_DataProvider.SelectRandomGegner(user, gegner);
+
         }
     }
 }

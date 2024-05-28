@@ -64,6 +64,9 @@ namespace Townbuilder
             m_password = password;
             m_profilbild = bild;
         }
+        public cls_user()
+        {
+        }
         public cls_user(string user, string password)
         {
             m_user = user;
