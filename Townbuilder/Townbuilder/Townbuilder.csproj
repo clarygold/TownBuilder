@@ -87,6 +87,12 @@
     <Compile Include="frm_town.Designer.cs">
       <DependentUpon>frm_town.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_upgrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_upgrade.Designer.cs">
+      <DependentUpon>frm_upgrade.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -106,6 +112,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_town.resx">
       <DependentUpon>frm_town.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_upgrade.resx">
+      <DependentUpon>frm_upgrade.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

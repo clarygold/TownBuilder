@@ -7,16 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Timer = System.Windows.Forms.Timer;
 
 namespace Townbuilder
 {
     public partial class frm_town : Form
     {
+        bool nachrichtstadt = false;
+        Timer stadtupdaten = new Timer();
         cls_user user;
         public frm_town()
         {
             InitializeComponent();
         }
+
         public frm_town(cls_user u)
         {
             InitializeComponent();
@@ -24,19 +28,44 @@ namespace Townbuilder
         }
         private void frm_town_Load(object sender, EventArgs e)
         {
-
+            Stadtupdate(sender, e);
+            
+            stadtupdaten.Interval = 5000;
+            stadtupdaten.Tick += Stadtupdate;
+            stadtupdaten.Start();
         }
 
         private void pb_dgn_Click(object sender, EventArgs e)
         {
             frm_dungeon dgn = new frm_dungeon();
-            dgn.ShowDialog();
+            stadtupdaten.Stop();
+            DialogResult dr = dgn.ShowDialog();
+            if(dr==DialogResult.OK)
+            {
+                stadtupdaten.Start();
+            }
         }
 
         private void pb_attacktown_Click(object sender, EventArgs e)
         {
             frm_attacktown twn = new frm_attacktown(user);
             twn.ShowDialog();
+        }
+        public void Stadtupdate(object sender, EventArgs e)
+        {
+            cls_DataProvider.SelectStadt(user);
+            lbl_geld.Text = string.Format("Geld: {0}", user.Geld);
+            if(user.Stadtkaputt!=0&&nachrichtstadt==false)
+            {
+                MessageBox.Show("Ihre Stadt wurde angegriffen!");
+                nachrichtstadt = true;
+            }
+        }
+
+        private void pbx_upgrade_Click(object sender, EventArgs e)
+        {
+            frm_upgrade upgr = new frm_upgrade(user);
+            upgr.ShowDialog();
         }
     }
 }

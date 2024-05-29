@@ -237,6 +237,7 @@ namespace Townbuilder
                 //ENDE
                 MessageBox.Show("You died.");
                 tmr_orchitshm.Stop();
+                DialogResult = DialogResult.OK;
             }
             if(orcleben<=0&&aus==0)
             {
@@ -245,7 +246,7 @@ namespace Townbuilder
                 MessageBox.Show("Enemy slain.");
                 tmr_orchitshm.Stop();
                 tmr_hpcheck.Stop();
-
+                DialogResult = DialogResult.OK;
             }
         }
         public void tmr_orchitshm_Tick(object sender, EventArgs e)

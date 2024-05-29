@@ -26,7 +26,7 @@ namespace Townbuilder
                 cmd.ExecuteNonQuery();
                 conn.Close();
             }
-            catch (Exception ex)
+            catch
             {
                 MessageBox.Show("Der Benutzer existiert bereits");
                 conn.Close();
@@ -156,22 +156,21 @@ namespace Townbuilder
         }
         public static void UpdateGegnerGame(cls_user u, cls_user g)
         {
-            //WICHTIG BRAUCHST AUCH VOM GEGNER (ALSO BEI IHM GOLD UND STADT REPARIEREN UPDATEN)
-
             MySqlConnection conn = new MySqlConnection(connectionString);
             string query = "UPDATE tbl_townbuilder SET geld = @geld, levelwaffe=@levelwaffe, levelruestung=@levelruestung WHERE id=@id;";
-            string query2 = "UPDATE tbl_townbuilder SET geld = @geld, levelstadt=@levelstadt, levelwaffe=@levelwaffe, levelruestung=@levelruestung WHERE id=@id;";
+            string query2 = "UPDATE tbl_townbuilder SET geld = @geld, levelstadt=@levelstadt, stadtkaputt=@stadtkaputt, levelwaffe=@levelwaffe, levelruestung=@levelruestung WHERE id=@id;";
             MySqlCommand cmd = new MySqlCommand(query, conn);
             MySqlCommand cmd2 = new MySqlCommand(query2, conn);
             cmd.Parameters.Add("geld", MySqlDbType.Int32).Value = u.Geld;
             cmd.Parameters.Add("leveldungeon", MySqlDbType.Int32).Value = u.Leveldungeon;
             cmd.Parameters.Add("levelwaffe", MySqlDbType.Int32).Value = u.Levelwaffe;
             cmd.Parameters.Add("levelruestung", MySqlDbType.Int32).Value = u.Levelruestung;
-            cmd2.Parameters.Add("geld", MySqlDbType.Int32).Value = u.Geld;
-            cmd2.Parameters.Add("leveldungeon", MySqlDbType.Int32).Value = u.Leveldungeon;
-            cmd2.Parameters.Add("levelwaffe", MySqlDbType.Int32).Value = u.Levelwaffe;
-            cmd2.Parameters.Add("levelruestung", MySqlDbType.Int32).Value = u.Levelruestung;
-            cmd2.Parameters.Add("levelstadt", MySqlDbType.Int32).Value = u.Levelstadt;
+            cmd2.Parameters.Add("geld", MySqlDbType.Int32).Value = g.Geld;
+            cmd2.Parameters.Add("leveldungeon", MySqlDbType.Int32).Value = g.Leveldungeon;
+            cmd2.Parameters.Add("levelwaffe", MySqlDbType.Int32).Value = g.Levelwaffe;
+            cmd2.Parameters.Add("levelruestung", MySqlDbType.Int32).Value = g.Levelruestung;
+            cmd2.Parameters.Add("levelstadt", MySqlDbType.Int32).Value = g.Levelstadt;
+            cmd2.Parameters.Add("stadtkaputt", MySqlDbType.Int32).Value = g.Stadtkaputt;
             cmd2.CommandTimeout = 60;
             try
             {
@@ -183,6 +182,54 @@ namespace Townbuilder
             catch
             {
                 MessageBox.Show("Die Datenbankverbindung hat nicht funktioniert");
+                conn.Close();
+            }
+        }
+        public static void SelectStadt(cls_user u)
+        {
+            MySqlConnection conn = new MySqlConnection(connectionString);
+            string query = "SELECT geld, stadtkaputt FROM tbl_townbuilder WHERE username=@username";
+            MySqlCommand cmd = new MySqlCommand(query, conn);
+            cmd.Parameters.Add("username", MySqlDbType.VarChar).Value = u.User;
+            cmd.CommandTimeout = 60;
+            try
+            {
+                conn.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    u.Stadtkaputt = Convert.ToInt32(reader[1]);
+                    u.Geld = Convert.ToInt32(reader[0]);
+                }
+                conn.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Die Datenbankverbindung hat nicht funktioniert");
+                conn.Close();
+            }
+        }
+        public static void UpdateUpgrade(cls_user u)
+        {
+            MySqlConnection conn = new MySqlConnection(connectionString);
+            string query = "UPDATE tbl_townbuilder SET geld = @geld, levelwache=@wache, levelwaffe=@waffe, levelstadt=@levelstadt, levelruestung=@levelruestung WHERE username=@user;";
+            MySqlCommand cmd = new MySqlCommand(query, conn);
+            cmd.Parameters.Add("geld", MySqlDbType.Int32).Value = u.Geld;
+            cmd.Parameters.Add("user", MySqlDbType.VarChar).Value = u.User;
+            cmd.Parameters.Add("wache", MySqlDbType.Int32).Value = u.Levelwache;
+            cmd.Parameters.Add("waffe", MySqlDbType.Int32).Value = u.Levelwaffe;
+            cmd.Parameters.Add("levelruestung", MySqlDbType.Int32).Value = u.Levelruestung;
+            cmd.Parameters.Add("levelstadt", MySqlDbType.Int32).Value = u.Levelstadt;
+            cmd.CommandTimeout = 60;
+            try
+            {
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                conn.Close();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(string.Format("{0}", ex));
                 conn.Close();
             }
         }
