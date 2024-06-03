@@ -301,5 +301,29 @@
   <ItemGroup>
     <None Include="Resources\90.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atk1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonddodge.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leatherdodge.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scaledodge.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secretdodge.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thiefdodge.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tribaldodge.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

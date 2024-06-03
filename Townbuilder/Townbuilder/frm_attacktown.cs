@@ -45,9 +45,9 @@ namespace Townbuilder
         {
             InitializeComponent();
             tmr_enemyhits.Tick += tmr_enemyhits_Tick;
-            tmr_enemyhits.Interval = 1000;
+            tmr_enemyhits.Interval = 600;
             tmr_roll.Tick += tmr_roll_Tick;
-            tmr_roll.Interval = 1000;
+            tmr_roll.Interval = 300;
             tmr_cooldownroll.Tick += tmr_cooldownroll_Tick;
             tmr_cooldownroll.Interval = 3000;
             tmr_enemyhitshm.Tick += tmr_enemyhitshm_Tick;
@@ -135,14 +135,15 @@ namespace Townbuilder
         public void tmr_enemyhits_Tick(object sender, EventArgs e)
         {
             enemytick++;
-            if (enemytick == 2)
+            if (enemytick == 3)
             {
                 if (roll == 0)
                 {
                     hp -= enemydmg;
                 }
             }
-            if (enemytick == 3)
+
+            if (enemytick == 5)
             {
                 pb_enemy.Image = Properties.Resources.orcstanding;
                 enemytick = 0;
@@ -153,8 +154,68 @@ namespace Townbuilder
         }
         public void tmr_roll_Tick(object sender, EventArgs e)
         {
+            //Waffen
+            if (weapon == 1)
+            {
+                //Schwert
+                pb_weapon.Image = Properties.Resources.swordstanding;
+            }
+            else if (weapon == 2)
+            {
+                pb_weapon.Image = Properties.Resources.axestanding;
+            }
+            else if (weapon == 3)
+            {
+                pb_weapon.Image = Properties.Resources.giantswordstand;
+            }
+            else if (weapon == 4)
+            {
+                //flammenschwert
+            }
+            else if (weapon == 5)
+            {
+                //morgenstern
+            }
+            else if (weapon == 6)
+            {
+                //hammer
+            }
+            if (armor == 1)
+            {
+                //leder
+                pb_player.Image = Properties.Resources.leatherstanding;
 
-            pb_player.BackColor = Color.Transparent;
+            }
+            else if (armor == 2)
+            {
+                //tribal
+                pb_player.Image = Properties.Resources.tribalstanding;
+
+            }
+            else if (armor == 3)
+            {
+                //scale
+                pb_player.Image = Properties.Resources.scalestand1;
+
+            }
+            else if (armor == 4)
+            {
+                //dia
+                pb_player.Image = Properties.Resources.diamondstanding;
+
+            }
+            else if (armor == 5)
+            {
+                //thief
+                pb_player.Image = Properties.Resources.thiefstanding;
+
+            }
+            else if (armor == 6)
+            {
+                //secret
+                pb_player.Image = Properties.Resources.secretstanding;
+
+            }
             roll = 0;
 
             tmr_roll.Stop();
@@ -184,7 +245,7 @@ namespace Townbuilder
 
         private void frm_dungeon_MouseClick(object sender, MouseEventArgs e)
         {
-            //hintergrundklick (unnötig eigentlich)
+            //hintergrundklick (für mauer nacher)
         }
         public void tmr_hit_Tick(object sender, EventArgs e)
         {
@@ -344,13 +405,6 @@ namespace Townbuilder
         }
 
 
-
-
-
-
-
-
-
         private void tmr_hpcheck_Tick_1(object sender, EventArgs e)
         {
             if (hp != 0)
@@ -429,7 +483,75 @@ namespace Townbuilder
             if (hit == 0 && cooldown == 0 && roll == 0 && e.KeyCode == Keys.Space)
             {
                 roll = 1;
-                pb_player.BackColor = Color.White;
+                if (armor == 1)
+                {
+                    //leder
+                    pb_player.Image = Properties.Resources.leatherdodge;
+
+                }
+                else if (armor == 2)
+                {
+                    //tribal
+                    pb_player.Image = Properties.Resources.tribaldodge;
+
+                }
+                else if (armor == 3)
+                {
+                    //scale
+                    pb_player.Image = Properties.Resources.scaledodge;
+
+                }
+                else if (armor == 4)
+                {
+                    //dia
+                    pb_player.Image = Properties.Resources.diamonddodge;
+
+                }
+                else if (armor == 5)
+                {
+                    //thief
+                    pb_player.Image = Properties.Resources.thiefdodge;
+
+                }
+                else if (armor == 6)
+                {
+                    //secret
+                    pb_player.Image = Properties.Resources.secretdodge;
+
+                }
+                //Waffen
+                if (weapon == 1)
+                {
+                    //Schwert
+                    pb_weapon.Image = null;
+                }
+                else if (weapon == 2)
+                {
+                    pb_weapon.Image = null;
+                }
+                else if (weapon == 3)
+                {
+                    pb_weapon.Image = null;
+                }
+                else if (weapon == 4)
+                {
+                    //flammenschwert
+                    pb_weapon.Image = null;
+
+                }
+                else if (weapon == 5)
+                {
+                    //morgenstern
+                    pb_weapon.Image = null;
+
+                }
+                else if (weapon == 6)
+                {
+                    //hammer
+                    pb_weapon.Image = null;
+
+                }
+
                 cooldown = 1;
                 tmr_cooldownroll.Start();
                 tmr_roll.Start();

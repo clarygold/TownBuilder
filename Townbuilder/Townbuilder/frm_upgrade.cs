@@ -65,5 +65,10 @@ namespace Townbuilder
         {
             cls_DataProvider.UpdateUpgrade(user);
         }
+
+        private void pbx_back_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

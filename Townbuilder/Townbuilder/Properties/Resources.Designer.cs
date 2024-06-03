@@ -173,6 +173,26 @@ namespace Townbuilder.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Atk {
+            get {
+                object obj = ResourceManager.GetObject("Atk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Atk1 {
+            get {
+                object obj = ResourceManager.GetObject("Atk1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AufstiegMenu {
             get {
                 object obj = ResourceManager.GetObject("AufstiegMenu", resourceCulture);
@@ -223,6 +243,16 @@ namespace Townbuilder.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap diamonddodge {
+            get {
+                object obj = ResourceManager.GetObject("diamonddodge", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap diamondstanding {
             get {
                 object obj = ResourceManager.GetObject("diamondstanding", resourceCulture);
@@ -266,6 +296,16 @@ namespace Townbuilder.Properties {
         internal static System.Drawing.Bitmap leather {
             get {
                 object obj = ResourceManager.GetObject("leather", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap leatherdodge {
+            get {
+                object obj = ResourceManager.GetObject("leatherdodge", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -493,6 +533,16 @@ namespace Townbuilder.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap scaledodge {
+            get {
+                object obj = ResourceManager.GetObject("scaledodge", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap scalestand {
             get {
                 object obj = ResourceManager.GetObject("scalestand", resourceCulture);
@@ -516,6 +566,16 @@ namespace Townbuilder.Properties {
         internal static System.Drawing.Bitmap secret {
             get {
                 object obj = ResourceManager.GetObject("secret", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap secretdodge {
+            get {
+                object obj = ResourceManager.GetObject("secretdodge", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -563,6 +623,16 @@ namespace Townbuilder.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap thiefdodge {
+            get {
+                object obj = ResourceManager.GetObject("thiefdodge", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap thiefstanding {
             get {
                 object obj = ResourceManager.GetObject("thiefstanding", resourceCulture);
@@ -576,6 +646,16 @@ namespace Townbuilder.Properties {
         internal static System.Drawing.Bitmap tribal {
             get {
                 object obj = ResourceManager.GetObject("tribal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tribaldodge {
+            get {
+                object obj = ResourceManager.GetObject("tribaldodge", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

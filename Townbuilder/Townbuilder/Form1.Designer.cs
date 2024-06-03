@@ -32,11 +32,9 @@ namespace Townbuilder
             this.pb_leave = new System.Windows.Forms.PictureBox();
             this.pb_register = new System.Windows.Forms.PictureBox();
             this.pb_login = new System.Windows.Forms.PictureBox();
-            this.pb_debug = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_leave)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_register)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_login)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_debug)).BeginInit();
             this.SuspendLayout();
             // 
             // pb_leave
@@ -79,24 +77,12 @@ namespace Townbuilder
             this.pb_login.MouseLeave += new System.EventHandler(this.pb_login_MouseLeave);
             this.pb_login.MouseHover += new System.EventHandler(this.pb_login_MouseHover);
             // 
-            // pb_debug
-            // 
-            this.pb_debug.BackColor = System.Drawing.Color.Transparent;
-            this.pb_debug.Image = global::Townbuilder.Properties.Resources.MenuloginNoHover;
-            this.pb_debug.Location = new System.Drawing.Point(43, 12);
-            this.pb_debug.Name = "pb_debug";
-            this.pb_debug.Size = new System.Drawing.Size(228, 50);
-            this.pb_debug.TabIndex = 3;
-            this.pb_debug.TabStop = false;
-            this.pb_debug.Click += new System.EventHandler(this.pb_debug_Click);
-            // 
             // frm_menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Townbuilder.Properties.Resources.Menu2;
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.pb_debug);
             this.Controls.Add(this.pb_login);
             this.Controls.Add(this.pb_register);
             this.Controls.Add(this.pb_leave);
@@ -107,7 +93,6 @@ namespace Townbuilder
             ((System.ComponentModel.ISupportInitialize)(this.pb_leave)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_register)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_login)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_debug)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -117,7 +102,6 @@ namespace Townbuilder
         private System.Windows.Forms.PictureBox pb_leave;
         private System.Windows.Forms.PictureBox pb_register;
         private System.Windows.Forms.PictureBox pb_login;
-        private System.Windows.Forms.PictureBox pb_debug;
     }
 }
 

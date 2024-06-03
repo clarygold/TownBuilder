@@ -46,10 +46,9 @@
             // 
             this.pb_player.BackColor = System.Drawing.Color.Transparent;
             this.pb_player.Image = global::Townbuilder.Properties.Resources.tribalstanding;
-            this.pb_player.Location = new System.Drawing.Point(260, 231);
-            this.pb_player.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pb_player.Location = new System.Drawing.Point(194, 212);
             this.pb_player.Name = "pb_player";
-            this.pb_player.Size = new System.Drawing.Size(405, 629);
+            this.pb_player.Size = new System.Drawing.Size(304, 511);
             this.pb_player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_player.TabIndex = 5;
             this.pb_player.TabStop = false;
@@ -58,10 +57,9 @@
             // 
             this.pb_weapon.BackColor = System.Drawing.Color.Transparent;
             this.pb_weapon.Image = global::Townbuilder.Properties.Resources.giantswordstand;
-            this.pb_weapon.Location = new System.Drawing.Point(665, 234);
-            this.pb_weapon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pb_weapon.Location = new System.Drawing.Point(498, 214);
             this.pb_weapon.Name = "pb_weapon";
-            this.pb_weapon.Size = new System.Drawing.Size(235, 629);
+            this.pb_weapon.Size = new System.Drawing.Size(176, 511);
             this.pb_weapon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_weapon.TabIndex = 4;
             this.pb_weapon.TabStop = false;
@@ -70,10 +68,9 @@
             // 
             this.pb_enemy.BackColor = System.Drawing.Color.Transparent;
             this.pb_enemy.Image = global::Townbuilder.Properties.Resources.orcstanding;
-            this.pb_enemy.Location = new System.Drawing.Point(851, 25);
-            this.pb_enemy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pb_enemy.Location = new System.Drawing.Point(638, 53);
             this.pb_enemy.Name = "pb_enemy";
-            this.pb_enemy.Size = new System.Drawing.Size(596, 564);
+            this.pb_enemy.Size = new System.Drawing.Size(447, 458);
             this.pb_enemy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_enemy.TabIndex = 3;
             this.pb_enemy.TabStop = false;
@@ -88,10 +85,9 @@
             // 
             this.lbl_hp.AutoSize = true;
             this.lbl_hp.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_hp.Location = new System.Drawing.Point(1485, 770);
-            this.lbl_hp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_hp.Location = new System.Drawing.Point(1144, 622);
             this.lbl_hp.Name = "lbl_hp";
-            this.lbl_hp.Size = new System.Drawing.Size(39, 29);
+            this.lbl_hp.Size = new System.Drawing.Size(30, 24);
             this.lbl_hp.TabIndex = 7;
             this.lbl_hp.Text = "10";
             // 
@@ -99,10 +95,9 @@
             // 
             this.pb_hp.BackColor = System.Drawing.Color.Transparent;
             this.pb_hp.Image = global::Townbuilder.Properties.Resources._100;
-            this.pb_hp.Location = new System.Drawing.Point(925, 804);
-            this.pb_hp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pb_hp.Location = new System.Drawing.Point(724, 649);
             this.pb_hp.Name = "pb_hp";
-            this.pb_hp.Size = new System.Drawing.Size(631, 43);
+            this.pb_hp.Size = new System.Drawing.Size(473, 35);
             this.pb_hp.TabIndex = 9;
             this.pb_hp.TabStop = false;
             // 
@@ -110,19 +105,19 @@
             // 
             this.lbl_enemyleben.AutoSize = true;
             this.lbl_enemyleben.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_enemyleben.Location = new System.Drawing.Point(1627, 32);
-            this.lbl_enemyleben.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_enemyleben.Location = new System.Drawing.Point(1220, 26);
             this.lbl_enemyleben.Name = "lbl_enemyleben";
-            this.lbl_enemyleben.Size = new System.Drawing.Size(39, 29);
+            this.lbl_enemyleben.Size = new System.Drawing.Size(30, 24);
             this.lbl_enemyleben.TabIndex = 8;
             this.lbl_enemyleben.Text = "10";
             // 
             // frm_attacktown
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(1707, 886);
+            this.BackgroundImage = global::Townbuilder.Properties.Resources.Atk1;
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.lbl_hp);
             this.Controls.Add(this.pb_hp);
             this.Controls.Add(this.lbl_enemyleben);
@@ -130,7 +125,6 @@
             this.Controls.Add(this.pb_weapon);
             this.Controls.Add(this.pb_enemy);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frm_attacktown";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_attacktown";
