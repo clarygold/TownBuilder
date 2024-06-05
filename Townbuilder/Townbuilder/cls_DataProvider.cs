@@ -211,6 +211,7 @@ namespace Townbuilder
         }
         public static void UpdateUpgrade(cls_user u)
         {
+            MessageBox.Show(Convert.ToString(u.Geld));
             MySqlConnection conn = new MySqlConnection(connectionString);
             string query = "UPDATE tbl_townbuilder SET geld = @geld, levelwache=@wache, levelwaffe=@waffe, levelstadt=@levelstadt, levelruestung=@levelruestung WHERE username=@user;";
             MySqlCommand cmd = new MySqlCommand(query, conn);

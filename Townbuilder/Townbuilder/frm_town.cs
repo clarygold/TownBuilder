@@ -65,7 +65,23 @@ namespace Townbuilder
         private void pbx_upgrade_Click(object sender, EventArgs e)
         {
             frm_upgrade upgr = new frm_upgrade(user);
-            upgr.ShowDialog();
+            stadtupdaten.Stop();
+            DialogResult dr = upgr.ShowDialog();
+            if (dr == DialogResult.OK)
+            {
+                stadtupdaten.Start();
+            }
+        }
+
+        private void pbx_shop_Click(object sender, EventArgs e)
+        {
+            frm_shop shop = new frm_shop(user);
+            stadtupdaten.Stop();
+            DialogResult dr = shop.ShowDialog();
+            if (dr == DialogResult.OK)
+            {
+                stadtupdaten.Start();
+            }
         }
     }
 }

@@ -81,6 +81,18 @@
     <Compile Include="frm_register.Designer.cs">
       <DependentUpon>frm_register.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_ruestungkaufen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ruestungkaufen.Designer.cs">
+      <DependentUpon>frm_ruestungkaufen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_shop.Designer.cs">
+      <DependentUpon>frm_shop.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_town.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +104,12 @@
     </Compile>
     <Compile Include="frm_upgrade.Designer.cs">
       <DependentUpon>frm_upgrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_waffekaufen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_waffekaufen.Designer.cs">
+      <DependentUpon>frm_waffekaufen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -110,11 +128,20 @@
     <EmbeddedResource Include="frm_register.resx">
       <DependentUpon>frm_register.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_ruestungkaufen.resx">
+      <DependentUpon>frm_ruestungkaufen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_shop.resx">
+      <DependentUpon>frm_shop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_town.resx">
       <DependentUpon>frm_town.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_upgrade.resx">
       <DependentUpon>frm_upgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_waffekaufen.resx">
+      <DependentUpon>frm_waffekaufen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
