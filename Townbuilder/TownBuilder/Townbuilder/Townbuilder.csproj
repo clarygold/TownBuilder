@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6E2EC6D-D377-43DB-AEEC-4C3F84EFDB66}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Townbuilder</RootNamespace>
+    <AssemblyName>Townbuilder</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\..\..\..\source\repos\db_Gewinnspielsoftware_User\db_Gewinnspielsoftware_User\bin\Debug\MySql.Data.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cls_DataProvider.cs" />
+    <Compile Include="cls_user.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_attacktown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_attacktown.Designer.cs">
+      <DependentUpon>frm_attacktown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_dungeon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_dungeon.Designer.cs">
+      <DependentUpon>frm_dungeon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_register.Designer.cs">
+      <DependentUpon>frm_register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ruestungkaufen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ruestungkaufen.Designer.cs">
+      <DependentUpon>frm_ruestungkaufen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_shop.Designer.cs">
+      <DependentUpon>frm_shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_town.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_town.Designer.cs">
+      <DependentUpon>frm_town.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_upgrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_upgrade.Designer.cs">
+      <DependentUpon>frm_upgrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_waffekaufen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_waffekaufen.Designer.cs">
+      <DependentUpon>frm_waffekaufen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_attacktown.resx">
+      <DependentUpon>frm_attacktown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_dungeon.resx">
+      <DependentUpon>frm_dungeon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_register.resx">
+      <DependentUpon>frm_register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ruestungkaufen.resx">
+      <DependentUpon>frm_ruestungkaufen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_shop.resx">
+      <DependentUpon>frm_shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_town.resx">
+      <DependentUpon>frm_town.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_upgrade.resx">
+      <DependentUpon>frm_upgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_waffekaufen.resx">
+      <DependentUpon>frm_waffekaufen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menulogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menulogin2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menulogin3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuRegister.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuClose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuloginNoHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuRegisterNoHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuClosenohover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuClosenohover2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuClose2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuRegisterNoHover2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuRegister2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AufstiegMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RegisterBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RegisterMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orcstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scalestand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giantsword.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giantswordstand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giantsword2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sword.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swordstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\axe.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\axestanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamondstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leather.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leatherstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scalestand1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secret.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secretstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thief.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thiefstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tribal.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tribalstanding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atk1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonddodge.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leatherdodge.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scaledodge.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secretdodge.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thiefdodge.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tribaldodge.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
