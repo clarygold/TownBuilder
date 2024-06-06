@@ -40,7 +40,9 @@ namespace Townbuilder
                 pbx_w1.BackColor = Color.DarkGreen; //2
                 pbx_w1.Tag = 2;
                 pbx_w2.BackColor = Color.DarkViolet; //3
+                pbx_w2.Tag = 3;
                 pbx_w3.BackColor = Color.DarkRed; //4
+                pbx_w2.Tag = 4;
                 //pbx_w2 = 3;
                 //pbx_w3 = 4;
             }
