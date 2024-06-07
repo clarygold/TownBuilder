@@ -36,7 +36,6 @@ namespace Townbuilder
             else if (user.Wache != 0)
             {
                 pbx_wacheplus.Visible = true;
-                label1.Visible = true;
             }
             lbl_geld.Text = string.Format("Geld: {0}", user.Geld);
             KostenAktualisieren();

@@ -352,5 +352,17 @@
   <ItemGroup>
     <None Include="Resources\tribaldodge.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upgrade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upgrade1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hammer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upgradebtnausgegraut.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

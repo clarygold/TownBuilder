@@ -293,6 +293,16 @@ namespace Townbuilder.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Hammer {
+            get {
+                object obj = ResourceManager.GetObject("Hammer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap leather {
             get {
                 object obj = ResourceManager.GetObject("leather", resourceCulture);
@@ -666,6 +676,36 @@ namespace Townbuilder.Properties {
         internal static System.Drawing.Bitmap tribalstanding {
             get {
                 object obj = ResourceManager.GetObject("tribalstanding", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Upgrade {
+            get {
+                object obj = ResourceManager.GetObject("Upgrade", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Upgrade1 {
+            get {
+                object obj = ResourceManager.GetObject("Upgrade1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap upgradebtnausgegraut {
+            get {
+                object obj = ResourceManager.GetObject("upgradebtnausgegraut", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
