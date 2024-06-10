@@ -364,5 +364,8 @@
   <ItemGroup>
     <None Include="Resources\upgradebtnausgegraut.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orckill.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -31,7 +31,7 @@ namespace Townbuilder
         int cooldown = 0;
         int hit = 0;
         int hitcooldown = 0;
-        int orcleben = 10;
+        int orcleben = 1;
         
         int aus = 0;
         
@@ -371,10 +371,12 @@ namespace Townbuilder
             {
                 aus = 1;
                 //ENDE (weitergehen/aufhören)
-                MessageBox.Show("Enemy slain.");
                 tmr_orchitshm.Stop();
                 tmr_hpcheck.Stop();
-                DialogResult = DialogResult.OK;
+                tmr_cooldownroll.Stop();
+                tmr_orchits.Stop();
+                pb_enemy.Image = Properties.Resources.Orckill;
+                tmr_aus.Start();
             }
         }
         public void tmr_orchitshm_Tick(object sender, EventArgs e)
@@ -548,6 +550,12 @@ namespace Townbuilder
 
                 tmr_hit.Start();
             }
+        }
+
+        private void tmr_aus_Tick(object sender, EventArgs e)
+        {
+            MessageBox.Show("Enemy slain.");
+            DialogResult = DialogResult.OK;
         }
     }
 }

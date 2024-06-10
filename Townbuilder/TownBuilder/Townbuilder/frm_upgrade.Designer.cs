@@ -131,40 +131,52 @@ namespace Townbuilder
             // lbl_waffekosten
             // 
             this.lbl_waffekosten.AutoSize = true;
-            this.lbl_waffekosten.Location = new System.Drawing.Point(358, 471);
+            this.lbl_waffekosten.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_waffekosten.Font = new System.Drawing.Font("Felix Titling", 21.75F);
+            this.lbl_waffekosten.ForeColor = System.Drawing.Color.White;
+            this.lbl_waffekosten.Location = new System.Drawing.Point(374, 462);
             this.lbl_waffekosten.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_waffekosten.Name = "lbl_waffekosten";
-            this.lbl_waffekosten.Size = new System.Drawing.Size(13, 13);
+            this.lbl_waffekosten.Size = new System.Drawing.Size(32, 34);
             this.lbl_waffekosten.TabIndex = 14;
             this.lbl_waffekosten.Text = "0";
             // 
             // lbl_ruestungkosten
             // 
             this.lbl_ruestungkosten.AutoSize = true;
-            this.lbl_ruestungkosten.Location = new System.Drawing.Point(358, 380);
+            this.lbl_ruestungkosten.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_ruestungkosten.Font = new System.Drawing.Font("Felix Titling", 21.75F);
+            this.lbl_ruestungkosten.ForeColor = System.Drawing.Color.White;
+            this.lbl_ruestungkosten.Location = new System.Drawing.Point(374, 380);
             this.lbl_ruestungkosten.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_ruestungkosten.Name = "lbl_ruestungkosten";
-            this.lbl_ruestungkosten.Size = new System.Drawing.Size(13, 13);
+            this.lbl_ruestungkosten.Size = new System.Drawing.Size(32, 34);
             this.lbl_ruestungkosten.TabIndex = 13;
             this.lbl_ruestungkosten.Text = "0";
             // 
             // lbl_stadtkosten
             // 
             this.lbl_stadtkosten.AutoSize = true;
-            this.lbl_stadtkosten.Location = new System.Drawing.Point(358, 242);
+            this.lbl_stadtkosten.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_stadtkosten.Font = new System.Drawing.Font("Felix Titling", 21.75F);
+            this.lbl_stadtkosten.ForeColor = System.Drawing.Color.White;
+            this.lbl_stadtkosten.Location = new System.Drawing.Point(374, 226);
             this.lbl_stadtkosten.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_stadtkosten.Name = "lbl_stadtkosten";
-            this.lbl_stadtkosten.Size = new System.Drawing.Size(13, 13);
+            this.lbl_stadtkosten.Size = new System.Drawing.Size(32, 34);
             this.lbl_stadtkosten.TabIndex = 12;
             this.lbl_stadtkosten.Text = "0";
             // 
             // lbl_wachekosten
             // 
             this.lbl_wachekosten.AutoSize = true;
-            this.lbl_wachekosten.Location = new System.Drawing.Point(358, 306);
+            this.lbl_wachekosten.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_wachekosten.Font = new System.Drawing.Font("Felix Titling", 21.75F);
+            this.lbl_wachekosten.ForeColor = System.Drawing.Color.White;
+            this.lbl_wachekosten.Location = new System.Drawing.Point(374, 303);
             this.lbl_wachekosten.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_wachekosten.Name = "lbl_wachekosten";
-            this.lbl_wachekosten.Size = new System.Drawing.Size(13, 13);
+            this.lbl_wachekosten.Size = new System.Drawing.Size(32, 34);
             this.lbl_wachekosten.TabIndex = 11;
             this.lbl_wachekosten.Text = "0";
             this.lbl_wachekosten.Visible = false;

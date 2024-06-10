@@ -36,6 +36,7 @@
             this.pb_weapon = new System.Windows.Forms.PictureBox();
             this.pb_enemy = new System.Windows.Forms.PictureBox();
             this.pb_hp = new System.Windows.Forms.PictureBox();
+            this.tmr_aus = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pb_player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_weapon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_enemy)).BeginInit();
@@ -111,6 +112,11 @@
             this.pb_hp.TabIndex = 6;
             this.pb_hp.TabStop = false;
             // 
+            // tmr_aus
+            // 
+            this.tmr_aus.Interval = 8000;
+            this.tmr_aus.Tick += new System.EventHandler(this.tmr_aus_Tick);
+            // 
             // frm_dungeon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -147,5 +153,6 @@
         private System.Windows.Forms.Timer tmr_hpcheck;
         private System.Windows.Forms.Label lbl_orcleben;
         private System.Windows.Forms.PictureBox pb_hp;
+        private System.Windows.Forms.Timer tmr_aus;
     }
 }

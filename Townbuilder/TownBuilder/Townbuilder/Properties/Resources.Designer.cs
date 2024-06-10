@@ -493,6 +493,16 @@ namespace Townbuilder.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Orckill {
+            get {
+                object obj = ResourceManager.GetObject("Orckill", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap orcstanding {
             get {
                 object obj = ResourceManager.GetObject("orcstanding", resourceCulture);

@@ -151,11 +151,14 @@
   <data name="diamonddodge" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\diamonddodge.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="diamond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diamond.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="orc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\orc.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MenuRegisterNoHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuRegisterNoHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LoginMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoginMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="leatherdodge" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\leatherdodge.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,14 +175,8 @@
   <data name="giantsword2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\giantsword2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MenuClosenohover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuClosenohover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Hammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MenuClose2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuClose2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\scale.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,14 +187,17 @@
   <data name="scale1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\scale1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="secretdodge" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\secretdodge.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Upgrade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Upgrade1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Menulogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Menulogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MenuClosenohover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuClosenohover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="60" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,8 +253,8 @@
   <data name="diamondstanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\diamondstanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="diamond" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\diamond.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MenuClose2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuClose2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,6 +271,9 @@
   <data name="giantsword" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\giantsword.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Menulogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menulogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Atk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Atk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -279,9 +282,6 @@
   </data>
   <data name="tribaldodge" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tribaldodge.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="thief" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\thief.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="90" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -298,22 +298,25 @@
   <data name="MenuClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuClose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="upgradebtnausgegraut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upgradebtnausgegraut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MenuClosenohover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuClosenohover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LoginMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LoginMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Upgrade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Upgrade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="thief" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thief.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="orcstanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\orcstanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MenuRegisterNoHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuRegisterNoHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upgradebtnausgegraut" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\upgradebtnausgegraut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Orckill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Orckill.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
